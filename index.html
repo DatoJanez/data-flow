@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sequences sunburst</title>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <link rel="stylesheet" type="text/css"
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,600">
+    <link rel="stylesheet" type="text/css" href="./sequences.css"/>
+  </head>
+  <body>
+    <div id="main">
+      <div id="chart">
+        <div id="explanation" >
+        </div>
+      </div>
+      <div id="chart1">
+        <div id="explanation1"></div>
+      </div>
+    </div>
+    <!-- <div id="sidebar">
+      <input type="checkbox" id="togglelegend"> Legend<br/>
+      <div id="legend" style="visibility: hidden;"></div>
+    </div> -->
+    <style>
+      body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    background-color: #fff;
+    width: 100%;
+    height: 700px;
+    margin-top: 10px;
+  }
+  
+  #main {
+    float: left;
+    width: 100%;
+  }
+  
+  
+  #chart, #chart1 {
+    position: relative;
+    display: inline-block;
+  }
+  
+  #chart path, #chart1 path {
+    stroke: #fff;
+    cursor: pointer;
+  }
+  
+  #explanation, #explanation1 {
+    /* position: absolute;
+    top: 260px;
+    left: 305px;
+    width: 140px;
+    text-align: center;
+    color: #666;
+    z-index: -1; */
+    position: absolute;
+    width: 46%;
+    height: 10%;
+    left: 27%;
+    border-radius: 100%;
+    /* background: red; */
+    top: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  #explanation > div, #explanation1 > div{
+    width: 80%;
+text-align: center;
+font-size: 1.3em;
+display: flex;
+align-items: center;
+justify-content: center;
+font-weight: bold;
+color: #eaeaea;
+padding: 7px 0;
+  }
+  #explanation > div#perc, #explanation1 > div#perc{
+    font-size: 3em;
+    color: #545454;
+    position: absolute;
+top: 200%;
+ }
+    </style>
+    <script type="text/javascript" src="sequences.js"></script>
+    <script type="text/javascript">
+      // Hack to make this example display correctly in an iframe on bl.ocks.org
+      d3.select(self.frameElement).style("height", "700px");
+  </script> 
+  </body>
+</html>
