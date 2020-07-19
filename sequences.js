@@ -237,22 +237,22 @@ Govermental Organisation-Ministry Of Regional Development And Infrastructure,1
 Govermental Organisation-Ministry Of Economy And Sustainable Development Of Georgia,1
 Govermental Organisation-Ministry Of Regional Development And Infrastructure Of Georgia,1
 Govermental Organisation,ministry of regional development and infrastructure of georgia
-Un Partner/Donor-Eu,35
-Un Partner/Donor-Undp,27
-Un Partner/Donor-Fao,6
-Un Partner/Donor-Mtpfo Office,6
-Un Partner/Donor-Un Agencies   Internal,5
-Un Partner/Donor-Un Headquarters,4
-Un Partner/Donor-Unicef,3
-Un Partner/Donor-Undp Brussel'S Office,2
-Un Partner/Donor-Donors   Not Specified,2
-Un Partner/Donor-Gcf,2
-Un Partner/Donor-Ohchr,2
-Un Partner/Donor-Unido,1
-Un Partner/Donor-Iom,1
-Un Partner/Donor-Monreal Protocol Secretariat,1
-Un Partner/Donor-Sdgs Fund,1
-Un Partner/Donor,sdgs fund
+UN Partner/Donor-Eu,35
+UN Partner/Donor-UNDP,27
+UN Partner/Donor-Fao,6
+UN Partner/Donor-Mtpfo Office,6
+UN Partner/Donor-Un Agencies   Internal,5
+UN Partner/Donor-Un Headquarters,4
+UN Partner/Donor-Unicef,3
+UN Partner/Donor-UNDP Brussel'S Office,2
+UN Partner/Donor-Donors   Not Specified,2
+UN Partner/Donor-Gcf,2
+UN Partner/Donor-Ohchr,2
+UN Partner/Donor-Unido,1
+UN Partner/Donor-Iom,1
+UN Partner/Donor-Monreal Protocol Secretariat,1
+UN Partner/Donor-Sdgs Fund,1
+UN Partner/Donor,sdgs fund
 Target Audience,39
 National Agency / Center / Lepl-Protected Areas Agency Of Georgia,8
 National Agency / Center / Lepl-Georgian National Environmental Agency   Nea,5
@@ -272,7 +272,7 @@ Local Non Govermental Organisation,19
 Countries-Government Of Sweden,5
 Countries-Swiss Cooperation Office (Sco) In South Caucasus,4
 Countries-Sdc Swiss Agency For Development Cooperation,4
-Countries-Usaid,3
+Countries-USAID,3
 Countries-Austrian Development Cooperation (Adc),2
 Countries-Danish Government,2
 Countries-Brittish Government,2
@@ -283,12 +283,11 @@ Countries-Government Of Flanders,1
 Countries,Government of Flanders
 Local Municipal Entities-Government Of Sweden,5
 Local Municipal Entities-Swiss Cooperation Office (Sco) In South Caucasus,4
-Local Municipal Entities-Sdc   Swiss Agency For Development Cooperation,4
-Local Municipal Entities-Usaid,3
+Local Municipal Entities-Sdc Swiss Agency For Development Cooperation,4
+Local Municipal Entities-USAID,4
 Local Municipal Entities-Austrian Development Cooperation (Adc),2
 Local Municipal Entities-Danish Government,2
 Local Municipal Entities-Brittish Government,2
-Local Municipal Entities-Usiad,1
 Local Municipal Entities-Governments Of Germany,1
 Local Municipal Entities-Government Of Norway,1
 Local Municipal Entities-Government Of Flanders,1
@@ -297,10 +296,10 @@ International Organization,9
 Steering Comitee,6
 Enpard   Monitoring Evaluation Body,4
 Target Audiance,3
-Project Executive Board (Consist Of Undp Representatives,3
+Project Executive Board (Consist Of UNDP Representatives,3
 Ministry Of Agriculture Representatives,3
-Members Of Others Ngo,3
-Stakeholders),3
+Members Of Others NGO,3
+Stakeholders,3
 Eu Delegation In Georgia,2
 Media And Social Media,2
 Experts Representing Revenue Service,1
@@ -328,7 +327,7 @@ Local Non Govermental Organisation-Local Ngos,16
 Local Non Govermental Organisation-Alert,6
 Local Non Govermental Organisation-Cihbff,4
 Local Non Govermental Organisation-Amilatt Resurskua,4
-Local Non Govermental Organisation-Idfi,4
+Local Non Govermental Organisation-IDFI,4
 Local Non Govermental Organisation-Georgia'S Environmental Outlook,4
 Local Non Govermental Organisation-Batumi Business Incubator,4
 Local Non Govermental Organisation-Ochamchira Youth House,2
@@ -360,26 +359,24 @@ National Agency / Center / Lepl-Environmental Information And Educational Center
 National Agency / Center / Lepl,environmental information and educational center
 Association,17
 International Organization,10
-Un Partner/Donor-Eu,35
-Un Partner/Donor-Undp,27
-Un Partner/Donor-Fao,6
-Un Partner/Donor-Mtpfo Office,6
-Un Partner/Donor-Un Agencies   Internal,5
-Un Partner/Donor-Un Headquarters,4
-Un Partner/Donor-Unicef,3
-Un Partner/Donor-Undp Brussel'S Office,2
-Un Partner/Donor-Donors   Not Specified,2
-Un Partner/Donor-Gcf,2
-Un Partner/Donor-Ohchr,2
-Un Partner/Donor-Unido,1
-Un Partner/Donor-Iom,1
-Un Partner/Donor-Monreal Protocol Secretariat,1
-Un Partner/Donor-Sdgs Fund,1
-Un Partner/Donor,sdgs fund
+UN Partner/Donor-EU,35
+UN Partner/Donor-UNDP,27
+UN Partner/Donor-FAO,6
+UN Partner/Donor-Mtpfo Office,6
+UN Partner/Donor-UN Agencies Internal,5
+UN Partner/Donor-UN Headquarters,4
+UN Partner/Donor-Unicef,3
+UN Partner/Donor-UNDP Brussel'S Office,2
+UN Partner/Donor-Donors   Not Specified,2
+UN Partner/Donor-GCF,2
+UN Partner/Donor-OHCHR,2
+UN Partner/Donor-Unido,1
+UN Partner/Donor-IOM,1
+UN Partner/Donor-Monreal Protocol Secretariat,1
+UN Partner/Donor-SDGs Fund,1
 Various Deployed Experts,3
-Chief Technical Advisor   Particular Person (Consultant),2
-Local Municipal Entities-,1
-Local Municipal Entities,
+Chief Technical Advisor Particular Person (Consultant),2
+Local Municipal Entities,1
 Governmental Organization,1`
 
 var csv = d3.csvParseRows(text2);
