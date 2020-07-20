@@ -308,7 +308,7 @@ Private Companies,1`
 var csv = d3.csvParseRows(text);
 var json1 = buildHierarchy(csv);
 
-var text2 = `Academia,33
+var text2 = `Academia-Academia,33
 Academia-Zugdidi State University,6
 Academia-Kachreti,4
 Academia-Gtu,4
